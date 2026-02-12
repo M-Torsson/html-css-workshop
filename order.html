@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tech Store - Order</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <header class="store-header">
+    <div class="store-top">
+      <h1>Tech Store</h1>
+      <nav class="nav">
+        <a href="store.html">Home</a>
+        <a href="products.html">Products</a>
+        <a href="order.html">Order</a>
+        <a href="contact.html">Contact</a>
+        <a href="index.html" class="logout">Logout</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="store-main">
+    <section class="card">
+      <h2>Place an Order</h2>
+
+      <form>
+        <label for="name">Name</label>
+        <input id="name" type="text" placeholder="Your name" required>
+
+        <label for="email">Email</label>
+        <input id="email" type="email" placeholder="name@example.com" required>
+
+        <label for="product">Product</label>
+        <select id="product" required>
+          <option value="">Choose one...</option>
+          <option>Laptop</option>
+          <option>Headphones</option>
+          <option>Keyboard</option>
+        </select>
+
+        <label for="payment">Payment Method</label>
+        <select id="payment" required>
+          <option value="">Choose one...</option>
+          <option>Card</option>
+          <option>Swish</option>
+          <option>Bank Transfer</option>
+        </select>
+
+        <label for="address">Address</label>
+        <textarea id="address" rows="4" placeholder="Street, city, postal code" required></textarea>
+
+        <button type="submit">Submit Order</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© 2026 Tech Store - All Rights Reserved</p>
+  </footer>
+
+</body>
+</html>

@@ -1,8 +1,12 @@
 body {
   margin: 0;
-  font-family: Arial, sans-serif;
+  font-family: 'Cairo', sans-serif;
   background-color: #f4f6f8;
   color: #333;
+
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 /* Header */
@@ -10,6 +14,7 @@ header {
   background-color: #0d47a1;
   color: white;
   padding: 20px;
+  text-align: center;
 }
 
 .store-top {
@@ -70,7 +75,7 @@ input, select, textarea {
 button {
   background-color: #0d47a1;
   color: white;
-  padding: 10px 15px;
+  padding: 15px 25px;
   border: none;
   border-radius: 5px;
   cursor: pointer;
@@ -87,3 +92,21 @@ button:hover {
   text-align: center;
   padding: 15px;
 }
+
+.welcome-box{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:20px;
+}
+
+.welcome-text{
+  flex:1;
+}
+
+.welcome-image img{
+  width:1250px;
+  max-width:100%;
+  height:auto;
+}
+
