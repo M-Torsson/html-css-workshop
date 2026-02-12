@@ -3,24 +3,23 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Tech Store</title>
+  <title>Login - Tech Store</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css" />
 </head>
 
 <body>
 
-  <!-- Login Screen -->
-  <header class="login-header" id="login">
+  <header class="login-header">
     <h1>Tech Store</h1>
-    <p>Sign in to continue</p>
   </header>
 
   <main class="login-main">
-    <section class="card login-card" aria-label="Login form">
+    <section class="card login-card">
       <h2>Login</h2>
 
-      <!-- Form -->
-      <form action="#store">
+      <form action="store.html">
         <label for="email">Email</label>
         <input id="email" name="email" type="email" placeholder="name@example.com" required>
 
@@ -30,93 +29,6 @@
         <button type="submit">Login</button>
 
       </form>
-    </section>
-  </main>
-
-  <!-- Store Page -->
-  <header class="store-header" id="store">
-    <div class="store-top">
-      <h1>Tech Store</h1>
-      <nav class="nav">
-        <a href="#products">Products</a>
-        <a href="#order">Order</a>
-        <a href="#contact">Contact</a>
-        <a href="#login" class="logout">Logout</a>
-      </nav>
-    </div>
-  </header>
-
-  <main class="store-main">
-    <!-- Products -->
-    <section class="card" id="products">
-      <h2>Products & Delivery</h2>
-
-      <table>
-        <thead>
-          <tr>
-            <th>Product</th>
-            <th>Price</th>
-            <th>Delivery Time</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>Laptop</td>
-            <td>12000 kr</td>
-            <td>2 Days</td>
-          </tr>
-          <tr>
-            <td>Headphones</td>
-            <td>500 kr</td>
-            <td>1 Day</td>
-          </tr>
-          <tr>
-            <td>Keyboard</td>
-            <td>300 kr</td>
-            <td>3 Days</td>
-          </tr>
-        </tbody>
-      </table>
-    </section>
-
-    <!-- Order Form -->
-    <section class="card" id="order">
-      <h2>Order Form</h2>
-
-      <form>
-        <div class="grid">
-          <div>
-            <label for="name2">Name</label>
-            <input id="name2" name="name" type="text" placeholder="Your name" required>
-          </div>
-
-          <div>
-            <label for="email2">Email</label>
-            <input id="email2" name="email" type="email" placeholder="name@example.com" required>
-          </div>
-        </div>
-
-        <label for="product">Select Product</label>
-        <select id="product" name="product" required>
-          <option value="">Choose one...</option>
-          <option>Laptop</option>
-          <option>Headphones</option>
-          <option>Keyboard</option>
-        </select>
-
-        <label for="address">Address</label>
-        <textarea id="address" name="address" rows="4" placeholder="Street, city, postal code" required></textarea>
-
-        <button type="submit">Submit Order</button>
-      </form>
-    </section>
-
-    <!-- Contact -->
-    <section class="card" id="contact">
-      <h2>Contact</h2>
-      <p>Email: support@techstore.com</p>
-      <p>Phone: +46 70 000 0000</p>
-      <p>Opening Hours: Mon–Fri 10:00–18:00</p>
     </section>
   </main>
 
