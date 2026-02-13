@@ -42,7 +42,11 @@ No real authentication or database is used in this project.
 ---
 
 ## How to Run
-Open `index.html` in your browser or use Live Server in VS Code.
+You can open the project locally by opening `index.html` in your browser
+or using Live Server in VS Code.
+
+Live Website:
+https://m-torsson.github.io/html-css-workshop/index.html
 
 ---
 
