@@ -28,6 +28,14 @@ header {
   margin-left: 15px;
   text-decoration: none;
   font-weight: bold;
+  font-size: 20px;
+}
+
+.nav a.active{
+  background-color:white;
+  color:#0d47a1;
+  padding:6px 10px;
+  border-radius:15px;
 }
 
 /* Main Layout */
